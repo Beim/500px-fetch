@@ -39,7 +39,10 @@ const sstart = async () => {
     if (!data.photos || !data.photos[id]) return console.log(`not found id: ${id}`)
     let picArr = data.photos[id].images
     let picUrl = picArr[picArr.length - 1]
-    console.log(picUrl)
+    if (picUrl.https_url)
+        console.log(picUrl.https_url)
+    else
+        console.log(picUrl.url)
 
 }
 
