@@ -1,3 +1,7 @@
+# require
+
+Node.js v7.0
+
 # usage
 
 获取[500px](https://500px.com) 网站上的高清图片
